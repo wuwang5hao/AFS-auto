@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d2e78f3-938a-4685-85f2-1f561fa933f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeiShu/OperationalLog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeiShu/ProductMarking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/feishu_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/lingxing_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoCase/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/MySQLUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/get_globals_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_cleaning/order_refund.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_cleaning/product_expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/table_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/table_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/MySQLConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoCase/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoCase/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/Config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/MySQLUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/MySQLUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/common/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/table_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/table_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/table_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +46,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Config.executor": "Run",
+    "Python.MySQLConfig.executor": "Run",
     "Python.OperationalLog.executor": "Run",
     "Python.cofig.executor": "Run",
     "Python.config.executor": "Run",
@@ -62,14 +58,19 @@
     "Python.order_refund.executor": "Run",
     "Python.product_expression.executor": "Run",
     "Python.t1.executor": "Run",
+    "Python.table_base.executor": "Run",
+    "Python.table_config.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/11206/Desktop/Python/AFS-auto",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\11206\Desktop\Python\AFS-auto\database" />
       <recent name="C:\Users\11206\Desktop\Python\AFS-auto\autoCase" />
     </key>
   </component>

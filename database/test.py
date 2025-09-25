@@ -37,11 +37,30 @@ import logging
 
 
 def Find():
+    # # 1. 从配置文件读取参数
+    # host = get_config_value("database", "host")
+    # user = get_config_value("database", "write_user")
+    # password = get_config_value("database", "write_password")
+    # db_name = get_config_value("database", "database1")
+    #
+    # # 2. 打印出所有参数及其类型
+    # print("--- 从配置文件读取的参数 ---")
+    # print(f"host: '{host}' (类型: {type(host)})")
+    # print(f"user: '{user}' (类型: {type(user)})")
+    # print(f"password: '{password}' (类型: {type(password)})")
+    # print(f"db: '{db_name}' (类型: {type(db_name)})")
+    # print("--------------------------")
+    #
+    # # 3. 检查参数是否为空
+    # if not all([host, user, password, db_name]):
+    #     print("错误：从配置文件读取的参数中存在空值，请检查配置文件。")
+    #     return
+
     db = pymysql.connect(
-        host="192.168.12.25",
-        user="read_user1",
-        password="C17PZioE",
-        database="amazon",
+        host=get_config_value("database", "host"),
+        user=get_config_value("database", "write_user"),
+        password=get_config_value("database", "write_password"),
+        db=get_config_value("database", "database1"),
     )
     cur = db.cursor()
     sqlQuery = "SELECT * FROM amz_test"
@@ -95,4 +114,4 @@ def create():
     db.close()
 
 
-create()
+Find()
